@@ -1,0 +1,230 @@
+.dropdown-large{ padding:20px; }
+
+@media all and (min-width: 992px) {
+
+	.dropdown-large{min-width:500px;}
+
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.profile {
+	font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-text {
+	color: black;
+}
+
+.dropdown-text:hover {
+	color: red;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+#navbar-text {
+	font-family: 'Roboto';
+	font-weight: 600px;
+	color: white;
+	font-size: 18px;
+}
+
+#navbar-text:hover {
+	color: red !important;
+	border-bottom: 1px solid red;
+}
+
+
+#navbar-icon {
+	font-family: 'Roboto';
+	font-weight: 600px;
+	font-size: 18px;
+	color: white;
+}
+
+#navbar-icon:hover {
+	color: red;
+	border-bottom: 1px solid red;
+}
+
+.navbar-btn {
+	font-family: 'Roboto';
+	border-radius: 8px;
+	width: 100%;
+	height: 40px;
+	background-color: transparent;  
+	border: 1px solid white;
+	outline: none;
+	transition-duration: 0.5s;
+	cursor: pointer;
+	color: white !important;
+}
+
+.navbar-btn-hoverWhite:hover {
+	background-color: red;
+    border: 1px solid red !important;
+}
+
+.navbar-btn-hoverRed:hover {
+	background-color: #4d0000;
+    border: 1px solid #4d0000 !important;
+}
+
+.navbar-btn:focus {
+	outline: none;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24);
+}
+
+.navbar-btn:active {
+	outline: none;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.24)
+}
+/*.jumbotron {
+	background: url('Kampiun.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 23%;
+    padding-bottom: 23%;
+}
+
+.text-white {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p.text-white {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 10px;
+}*/
+
+.carousel-caption {
+    top: 25%;
+    bottom: auto;
+}
+
+.grid-icon {
+	position: relative;
+}
+
+.grid-icon h4 {
+	position: absolute;
+	top: 1px;
+	padding-top: 10px;
+	padding-left: 16px;
+	color: white;
+}
+
+.grid-icon:hover {
+
+}
+
+.grid-icon img:hover {
+	box-shadow: 0 0 100px rgba(33,33,33,.2);
+	opacity: 0.7;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #111;
+	color: #999;
+}
+
+.footer-top {
+	padding: 60px 0px;
+}
+
+.footer-top h1, h2, h3, h4 {
+	font-size: 18px;
+}
+
+.segment-one h2 {
+	/*font-family*/
+	letter-spacing: 3px;
+}
+
+.segment-one h2:before {
+	content: 'I';
+	color: red;
+	padding-right: 10px;
+}
+
+.segment-two h2 {
+	/*font-family: */
+	text-transform: uppercase;
+}
+
+.segment-two h2:before {
+	content: 'I';
+	color: red;
+	padding-right: 10px;
+}
+
+.segment-two ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.segment-two li {
+	padding: 5px 0;
+}
+
+.segment-two ul li a{
+	color: #999;
+	text-decoration: none;
+}
+
+.segment-three h2 {
+	/*font-family: */
+	text-transform: uppercase;
+}
+
+.segment-three h2:before {
+	content: 'I';
+	color: red;
+	padding-right: 10px;
+}
+
+.segment-three a {
+	border: 1px solid #999;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.segment-three a i {
+	font-size: 20px;
+	color: #999;
+	padding: 10px 12px;
+}
+
+.footer-bottom-text {
+	text-align: center;
+	line-height: 75px;
+}
+
+/* RESPONSIVE FOOTER */
+
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+	.md-mb-30 {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.sm-mb-30 {
+		margin-bottom: 30px;
+	}
+	.footer-top {
+		padding: 50px 0;
+	}
+}
